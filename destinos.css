@@ -1,0 +1,136 @@
+.destinos {
+    width:100%;
+    max-width: 1024px;
+    margin: 4em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.titulo-destino {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.icone {
+    width: 70px;
+    align-self: flex-start;
+}
+.titulo-destino h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1F336A; 
+ }
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;  
+    padding-bottom: 2rem;  
+    font-size: 1.2em;
+}
+
+.lista-destinos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em 0 3em 0;
+}
+
+.caixa-lista-destinos { 
+    display: flex;
+    flex-direction: column;
+    width: 15%; 
+    border-radius: 8px;
+    justify-content: space-between;    
+    box-shadow: 0px 2px 5px rgba(31, 51, 106, 30%);
+} 
+
+.caixa-lista-destinos img { 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px; 
+    width: 100%; 
+} 
+
+.caixa-lista-destinos h3 { 
+    text-align: center; 
+    font-weight: bold;
+    font-size: 18px;
+    margin: 8px;
+    font-style: italic;
+}
+
+.caixa-lista-destinos p { 
+    text-align: center;
+    text-justify:distribute-all-lines;
+    padding: 5px 0 3px;
+ }
+
+.orcamento {
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+    padding: 10px;
+    font-weight: bold;
+    border: 2px solid #1F336A;
+    color: #1F336A;
+    border-radius: 8px;
+    transition-duration: .4s;
+}  
+
+.orcamento:hover{
+    background: #1F336A;
+    color:white;
+    transition-duration: .4s;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+
+    .destinos {
+        margin: 2em auto;
+    }  
+    .icone {
+        width: 60px;
+    }
+     .titulo-destino h2{
+        font-size: 1.6rem;
+    }
+
+}
+
+@media only screen and (max-width: 767px){
+    .destinos {
+        margin: 0;
+        margin-bottom: 15px;
+    }
+     .icone {
+        width: 50px;
+    }
+    
+    .titulo-destino h2{
+        font-size: 1.3rem;
+    }
+    .subtitulo{  
+        font-size: 1rem;
+    }
+    .lista-destinos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .caixa-lista-destinos {
+        width: 40%;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .orcamento {
+        width: 60%;
+    }
+   
+}

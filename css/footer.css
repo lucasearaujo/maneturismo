@@ -1,0 +1,118 @@
+footer {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  padding-top: 1%;
+  border-top: 0.5px solid #000000;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+ 
+.rodape-sem-imagens{
+  display: flex;
+  margin-left: .5em;
+  margin-right: .5em;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.rodape-sem-imagens a:hover{
+  opacity: 0.5;
+}
+
+.colunas-footer{
+  display: flex;
+  flex-direction: column;
+  margin: .5em;
+}
+
+.coluna-interna h4 {
+  margin: 1em 0 2em 0;
+  font-size: 1.2em;
+}
+
+
+.coluna-interna p {
+  margin: 1em 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.coluna-interna p a {
+  text-decoration: none;
+  color:#000;
+}
+
+.rodape-com-imagens{
+  display: flex;
+  justify-content:space-around;
+  border-top: solid #000 1px;
+}
+
+.social-icon {
+  width: 35px;
+  padding: 0 0.5em;
+} 
+
+.pagamento-icon {
+  width: 50px;
+  padding: 0 1em;
+}
+
+.formas-pagamento{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.redes-sociais{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.redes-sociais p, .formas-pagamento p {
+  margin: 2em 0;
+}
+
+.footer-social-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 35px;
+}
+
+.social-icon:hover{
+  opacity: 0.5;
+
+}
+
+.footer-pagamento-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  min-height: 35px;
+}
+
+.copyright{
+  color: gray;
+  padding: 1em;
+  text-align: center;
+  margin: 4em;
+  border-top: 0.3px solid #00000044;
+}
+
+@media only screen and (max-width: 767px){
+  .rodape-sem-imagens{
+    display: block;
+    text-align: center;     
+  }
+}

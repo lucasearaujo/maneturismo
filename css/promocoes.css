@@ -1,0 +1,146 @@
+.promocoes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.planos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    padding-bottom: 2rem;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.promocoes-titulo {
+    font-size: 24px;
+    color: #1F336A;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+
+.caixa-promocoes-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.passaporte {
+    height: 70px;
+    width: 70px;
+}
+
+.caixa-planos-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 200px;
+}
+
+.hotel {
+    height: 70px;
+    width: 70px;
+}
+
+.card {
+    width: 210px;
+    height: 280px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 5px 2px #DDDDDD;
+}
+
+.card-image {
+    height: 111px;
+    background-size: cover;
+    margin-bottom: 10px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.img-1 {
+    background-image: url("../img/chapada-diamantina.jpg");
+}
+
+.img-2 {
+    background-image: url("../img/gramado-paisagem-flores-0320-1400x800.webp");
+}
+.img-3 {
+    background-image: url("../img/parque-beto-carrero-world.jpg");
+}
+
+.img-4 {
+    background-image: url("../imagens/destinocostadalagoa.jpg");
+}
+
+.img-5 {
+    background-image: url("../img/Maragogi.jpg") ;
+}
+
+.img-6 {
+    background-image: url("../img/ubatuba.jpg");
+}
+
+hr {
+    text-align: center;
+    width: 60%;
+}
+
+.card-titulo {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.caixa-icones {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.card-detalhe {
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.caixa-detalhe {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.icone-check {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.caixa-diaria {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.preco {
+    text-align: right;
+    font-weight: bold;
+    margin-right: 15px;
+    font-style: italic;
+}

@@ -1,0 +1,144 @@
+.inscrever {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/inscrever-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inscrever-conteudo{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex ;
+    flex-direction: row ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.inscrever-conteudo-formulario{
+    display: flex;
+    flex-direction:column;
+    width: 394px;
+    background-color: #F2F2F2;
+    height: 100%;
+    padding:1.2rem 20px ;
+    font-size: 15px;
+    color: #1F336A;
+}
+
+.texto-spam {
+    color: #1F336A;
+    font-weight: bold;
+    font-size: 8px;
+}
+
+.inscrever-conteudo-formulario h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align:center;
+    margin-bottom: 15px;
+
+}
+
+.btn-aceitar {
+    border-radius: 13px;
+    padding: 15px ;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-top: 15px;
+    border: 1px solid #1F336A;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    color: #1F336A;
+    transition: all 300ms ease;
+}
+
+.btn-aceitar:hover {
+    opacity: 0.85;
+}
+
+.inscrever-conteudo-formulario  form {
+    display: flex;
+    flex-direction:column;
+}
+
+.inscrever-conteudo-qr{
+    display: flex;
+    flex-direction:row; 
+    height: 109px;
+    width: 294px;
+    background-color: #F4BC1D;
+    align-items:center;
+    justify-content:space-between; 
+    padding-right: 10px; 
+    padding-left: 10px;
+    border-radius: 13px;
+    align-self: center;
+}
+
+.inscrever-conteudo-qr-app {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height: 80px;
+}
+
+.tema-qr {
+    color: #1F336A;
+    font-weight: bold; 
+    font-size: 14px;
+    text-align: center;
+}
+
+.inscrever-conteudo-qr p {
+    font-size: 8px;
+    font-weight: bold;
+    text-align:center;
+}
+
+.imagem-qr-code {
+    height: 90px;
+    width: 94px;
+}
+
+.inscrever-campo-texto {
+    border:none;
+    border-radius: 5px;
+    margin:0.3rem 0;
+    padding: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.inscrever-conteudo-formulario-nome {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.campo-menor {
+    width: 48%;
+}
+
+@media (max-width: 678px) {
+    .inscrever {
+        height: 100%;
+    }
+
+    .inscrever-conteudo {
+        height: 100%;
+    }
+
+    .inscrever-conteudo-qr {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .inscrever-conteudo-formulario {
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+}
